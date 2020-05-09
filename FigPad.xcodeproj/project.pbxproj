@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2F9CD0FA99AEE038A2749C /* Pods_FigPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6A5E291827F55841B3B65D /* Pods_FigPad.framework */; };
+		7550D25D246714F9005C70D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D25C246714F9005C70D8 /* AppDelegate.swift */; };
+		7550D261246714F9005C70D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D260246714F9005C70D8 /* ViewController.swift */; };
+		7550D266246714FA005C70D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7550D265246714FA005C70D8 /* Assets.xcassets */; };
+		7550D269246714FA005C70D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7550D267246714FA005C70D8 /* LaunchScreen.storyboard */; };
+		7550D274246714FA005C70D8 /* FigPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D273246714FA005C70D8 /* FigPadTests.swift */; };
+		7550D27F246714FA005C70D8 /* FigPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D27E246714FA005C70D8 /* FigPadUITests.swift */; };
+		7550D2CB2467169A005C70D8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D2C92467169A005C70D8 /* Fonts.swift */; };
+		7550D2CC2467169A005C70D8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D2CA2467169A005C70D8 /* Colors.swift */; };
+		755FE6F5246721640022866E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 755FE6F4246721640022866E /* Localizable.strings */; };
+		755FE6F72467217E0022866E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755FE6F62467217E0022866E /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7550D270246714FA005C70D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7550D251246714F9005C70D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7550D258246714F9005C70D8;
+			remoteInfo = FigPad;
+		};
+		7550D27B246714FA005C70D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7550D251246714F9005C70D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7550D258246714F9005C70D8;
+			remoteInfo = FigPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1438C40938086AFAF5917E99 /* Pods-FigPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigPad.release.xcconfig"; path = "Target Support Files/Pods-FigPad/Pods-FigPad.release.xcconfig"; sourceTree = "<group>"; };
+		62F8B78BF3178FF4B2CB07A9 /* Pods-FigPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigPad.debug.xcconfig"; path = "Target Support Files/Pods-FigPad/Pods-FigPad.debug.xcconfig"; sourceTree = "<group>"; };
+		7550D259246714F9005C70D8 /* FigPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7550D25C246714F9005C70D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7550D260246714F9005C70D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7550D265246714FA005C70D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7550D268246714FA005C70D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7550D26A246714FA005C70D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7550D26F246714FA005C70D8 /* FigPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7550D273246714FA005C70D8 /* FigPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigPadTests.swift; sourceTree = "<group>"; };
+		7550D275246714FA005C70D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7550D27A246714FA005C70D8 /* FigPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7550D27E246714FA005C70D8 /* FigPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigPadUITests.swift; sourceTree = "<group>"; };
+		7550D280246714FA005C70D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7550D2C92467169A005C70D8 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		7550D2CA2467169A005C70D8 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		755FE6F4246721640022866E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		755FE6F62467217E0022866E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DC6A5E291827F55841B3B65D /* Pods_FigPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FigPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7550D256246714F9005C70D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2F9CD0FA99AEE038A2749C /* Pods_FigPad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7550D26C246714FA005C70D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7550D277246714FA005C70D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A093FCC58BEFAFE3CE0768F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62F8B78BF3178FF4B2CB07A9 /* Pods-FigPad.debug.xcconfig */,
+				1438C40938086AFAF5917E99 /* Pods-FigPad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7550D250246714F9005C70D8 = {
+			isa = PBXGroup;
+			children = (
+				7550D25B246714F9005C70D8 /* FigPad */,
+				7550D272246714FA005C70D8 /* FigPadTests */,
+				7550D27D246714FA005C70D8 /* FigPadUITests */,
+				7550D25A246714F9005C70D8 /* Products */,
+				1A093FCC58BEFAFE3CE0768F /* Pods */,
+				BF8D176BB6CC26CFADBC7802 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7550D25A246714F9005C70D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7550D259246714F9005C70D8 /* FigPad.app */,
+				7550D26F246714FA005C70D8 /* FigPadTests.xctest */,
+				7550D27A246714FA005C70D8 /* FigPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7550D25B246714F9005C70D8 /* FigPad */ = {
+			isa = PBXGroup;
+			children = (
+				7550D25C246714F9005C70D8 /* AppDelegate.swift */,
+				7550D260246714F9005C70D8 /* ViewController.swift */,
+				7550D2C82467169A005C70D8 /* Styles */,
+				7550D265246714FA005C70D8 /* Assets.xcassets */,
+				7550D267246714FA005C70D8 /* LaunchScreen.storyboard */,
+				755FE6F62467217E0022866E /* Extensions.swift */,
+				755FE6F4246721640022866E /* Localizable.strings */,
+				7550D26A246714FA005C70D8 /* Info.plist */,
+			);
+			path = FigPad;
+			sourceTree = "<group>";
+		};
+		7550D272246714FA005C70D8 /* FigPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				7550D273246714FA005C70D8 /* FigPadTests.swift */,
+				7550D275246714FA005C70D8 /* Info.plist */,
+			);
+			path = FigPadTests;
+			sourceTree = "<group>";
+		};
+		7550D27D246714FA005C70D8 /* FigPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7550D27E246714FA005C70D8 /* FigPadUITests.swift */,
+				7550D280246714FA005C70D8 /* Info.plist */,
+			);
+			path = FigPadUITests;
+			sourceTree = "<group>";
+		};
+		7550D2C82467169A005C70D8 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				7550D2C92467169A005C70D8 /* Fonts.swift */,
+				7550D2CA2467169A005C70D8 /* Colors.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		BF8D176BB6CC26CFADBC7802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC6A5E291827F55841B3B65D /* Pods_FigPad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7550D258246714F9005C70D8 /* FigPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7550D283246714FA005C70D8 /* Build configuration list for PBXNativeTarget "FigPad" */;
+			buildPhases = (
+				4527E5B3BCB45D9ADC8E9489 /* [CP] Check Pods Manifest.lock */,
+				7550D255246714F9005C70D8 /* Sources */,
+				7550D256246714F9005C70D8 /* Frameworks */,
+				7550D257246714F9005C70D8 /* Resources */,
+				CEE8FCF9B0D538417E1A854E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FigPad;
+			productName = FigPad;
+			productReference = 7550D259246714F9005C70D8 /* FigPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7550D26E246714FA005C70D8 /* FigPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7550D286246714FA005C70D8 /* Build configuration list for PBXNativeTarget "FigPadTests" */;
+			buildPhases = (
+				7550D26B246714FA005C70D8 /* Sources */,
+				7550D26C246714FA005C70D8 /* Frameworks */,
+				7550D26D246714FA005C70D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7550D271246714FA005C70D8 /* PBXTargetDependency */,
+			);
+			name = FigPadTests;
+			productName = FigPadTests;
+			productReference = 7550D26F246714FA005C70D8 /* FigPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7550D279246714FA005C70D8 /* FigPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7550D289246714FA005C70D8 /* Build configuration list for PBXNativeTarget "FigPadUITests" */;
+			buildPhases = (
+				7550D276246714FA005C70D8 /* Sources */,
+				7550D277246714FA005C70D8 /* Frameworks */,
+				7550D278246714FA005C70D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7550D27C246714FA005C70D8 /* PBXTargetDependency */,
+			);
+			name = FigPadUITests;
+			productName = FigPadUITests;
+			productReference = 7550D27A246714FA005C70D8 /* FigPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7550D251246714F9005C70D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "SwiftLab Ltd";
+				TargetAttributes = {
+					7550D258246714F9005C70D8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					7550D26E246714FA005C70D8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7550D258246714F9005C70D8;
+					};
+					7550D279246714FA005C70D8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7550D258246714F9005C70D8;
+					};
+				};
+			};
+			buildConfigurationList = 7550D254246714F9005C70D8 /* Build configuration list for PBXProject "FigPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7550D250246714F9005C70D8;
+			productRefGroup = 7550D25A246714F9005C70D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7550D258246714F9005C70D8 /* FigPad */,
+				7550D26E246714FA005C70D8 /* FigPadTests */,
+				7550D279246714FA005C70D8 /* FigPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7550D257246714F9005C70D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7550D269246714FA005C70D8 /* LaunchScreen.storyboard in Resources */,
+				755FE6F5246721640022866E /* Localizable.strings in Resources */,
+				7550D266246714FA005C70D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7550D26D246714FA005C70D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7550D278246714FA005C70D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4527E5B3BCB45D9ADC8E9489 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FigPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE8FCF9B0D538417E1A854E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FigPad/Pods-FigPad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FigPad/Pods-FigPad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FigPad/Pods-FigPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7550D255246714F9005C70D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755FE6F72467217E0022866E /* Extensions.swift in Sources */,
+				7550D261246714F9005C70D8 /* ViewController.swift in Sources */,
+				7550D2CC2467169A005C70D8 /* Colors.swift in Sources */,
+				7550D2CB2467169A005C70D8 /* Fonts.swift in Sources */,
+				7550D25D246714F9005C70D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7550D26B246714FA005C70D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7550D274246714FA005C70D8 /* FigPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7550D276246714FA005C70D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7550D27F246714FA005C70D8 /* FigPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7550D271246714FA005C70D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7550D258246714F9005C70D8 /* FigPad */;
+			targetProxy = 7550D270246714FA005C70D8 /* PBXContainerItemProxy */;
+		};
+		7550D27C246714FA005C70D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7550D258246714F9005C70D8 /* FigPad */;
+			targetProxy = 7550D27B246714FA005C70D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7550D267246714FA005C70D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7550D268246714FA005C70D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7550D281246714FA005C70D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7550D282246714FA005C70D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7550D284246714FA005C70D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F8B78BF3178FF4B2CB07A9 /* Pods-FigPad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XP85L8JK;
+				INFOPLIST_FILE = FigPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.swiftlab.FigPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7550D285246714FA005C70D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1438C40938086AFAF5917E99 /* Pods-FigPad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XP85L8JK;
+				INFOPLIST_FILE = FigPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.swiftlab.FigPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		7550D287246714FA005C70D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XP85L8JK;
+				INFOPLIST_FILE = FigPadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.swiftlab.FigPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FigPad.app/FigPad";
+			};
+			name = Debug;
+		};
+		7550D288246714FA005C70D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XP85L8JK;
+				INFOPLIST_FILE = FigPadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.swiftlab.FigPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FigPad.app/FigPad";
+			};
+			name = Release;
+		};
+		7550D28A246714FA005C70D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XP85L8JK;
+				INFOPLIST_FILE = FigPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.swiftlab.FigPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FigPad;
+			};
+			name = Debug;
+		};
+		7550D28B246714FA005C70D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XP85L8JK;
+				INFOPLIST_FILE = FigPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.swiftlab.FigPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FigPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7550D254246714F9005C70D8 /* Build configuration list for PBXProject "FigPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7550D281246714FA005C70D8 /* Debug */,
+				7550D282246714FA005C70D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7550D283246714FA005C70D8 /* Build configuration list for PBXNativeTarget "FigPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7550D284246714FA005C70D8 /* Debug */,
+				7550D285246714FA005C70D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7550D286246714FA005C70D8 /* Build configuration list for PBXNativeTarget "FigPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7550D287246714FA005C70D8 /* Debug */,
+				7550D288246714FA005C70D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7550D289246714FA005C70D8 /* Build configuration list for PBXNativeTarget "FigPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7550D28A246714FA005C70D8 /* Debug */,
+				7550D28B246714FA005C70D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7550D251246714F9005C70D8 /* Project object */;
+}

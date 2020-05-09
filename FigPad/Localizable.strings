@@ -1,0 +1,44 @@
+//
+//  Localizable.strings
+//  Tribe
+//
+//  Created by Rob Swift on 23/04/2019.
+//  Copyright © 2019 SwiftLab. All rights reserved.
+//
+
+// Shortcuts
+"shortcut.save.fig" = "Save as .fig...";
+"shortcut.save.version" = "Save to Version History...";
+"shortcut.undo" = "Undo";
+"shortcut.redo" = "Redo";
+"shortcut.delete" = "Delete";
+"shortcut.duplicate" = "Duplicate";
+"shortcut.copy" = "Copy";
+"shortcut.paste" = "Paste";
+"shortcut.paste.over.selection" = "Paste Over Selection";
+"shortcut.paste.properties" = "Paste Properties";
+"shortcut.pick.colors" = "Pick Color";
+"shortcut.select.all" = "Select All";
+"shortcut.select.inverse" = "Select Inverse";
+"shortcut.export" = "Export...";
+"shortcut.move" = "Move";
+"shortcut.scale" = "Scale";
+"shortcut.frame" = "Frame";
+"shortcut.rectangle" = "Rectangle";
+"shortcut.line" = "Line";
+"shortcut.arrow" = "Arrow";
+"shortcut.ellipse" = "Ellipse";
+"shortcut.place.image" = "Place Image";
+"shortcut.pen" = "Pen";
+"shortcut.pencil" = "Pencil";
+"shortcut.hand" = "Hand Tool";
+"shortcut.text" = "Text";
+"shortcut.comments" = "Add/Show Comments";
+"shortcut.group" = "Group Selection";
+"shortcut.ungroup" = "Ungroup Selection";
+"shortcut.use.as.mask" = "Use as Mask";
+"shortcut.create.component" = "Create Component";
+"shortcut.move.forward" = "Bring Forward";
+"shortcut.move.backward" = "Send Backward";
+"shortcut.move.to.front" = "Bring to Front";
+"shortcut.move.to.back" = "Send to Back";
