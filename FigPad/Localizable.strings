@@ -38,7 +38,7 @@
 "shortcut.ungroup" = "Ungroup Selection";
 "shortcut.use.as.mask" = "Use as Mask";
 "shortcut.create.component" = "Create Component";
-"shortcut.move.forward" = "Bring Forward";
-"shortcut.move.backward" = "Send Backward";
-"shortcut.move.to.front" = "Bring to Front";
-"shortcut.move.to.back" = "Send to Back";
+"shortcut.bring.forward" = "Bring Forward";
+"shortcut.send.backward" = "Send Backward";
+"shortcut.bring.to.front" = "Bring to Front";
+"shortcut.send.to.back" = "Send to Back";
