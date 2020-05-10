@@ -10,7 +10,7 @@ import UIKit
 import WebKit
 import SnapKit
 
-class ViewController: UIViewController, WKUIDelegate  {
+class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate  {
     
     let statusBarBackgroundView = UIView()
     let webView = WKWebView()
@@ -50,11 +50,16 @@ class ViewController: UIViewController, WKUIDelegate  {
         }
         webView.allowsBackForwardNavigationGestures = false
         webView.allowsLinkPreview = false
-        webView.load(.init(url: URL(string: "https://www.figma.com")!))
+        webView.load(.init(url: URL(string: "https://www.figma.com/login")!))
+        webView.navigationDelegate = self
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
+    }
+    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        
     }
 }
 
